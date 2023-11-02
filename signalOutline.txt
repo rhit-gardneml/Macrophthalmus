@@ -1,0 +1,18 @@
+Generate bits
+	Sync bits: 4-bits 1010 or 0101
+	Header: 64-bit
+	Image Payload: 640x480x4-bits
+	trailer bits: 4-bits 1010 or 0101
+Upsample
+RRC
+mod BPSK:
+Upconvert: 1MHz from baseband
+DAC
+mix to 430MHz
+AWGN
+ 
+mix to 1MHz
+ADC
+Downconvert to baseband from 1MHz
+
+demod BPSK
