@@ -1,0 +1,9 @@
+In the MatLab command window:
+--->hdlsetup('NAME OF SIMULINK FILE');  initial setup
+--->hdlsetuptoolpath('ToolName', 'FPGA DEVICE NAME', 'ToolPath', 'C:\Xilinx\Vivado\2019.2\bin'); setup to compile to fpga
+
+There is a tool: The fixed-point designer tool.
+
+Note:
+I think that we need to download this https://www.mathworks.com/products/hdl-verifier.html and this https://www.mathworks.com/products/hdl-coder.html
+To make this work
