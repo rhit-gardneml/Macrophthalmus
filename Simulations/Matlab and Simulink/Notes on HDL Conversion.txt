@@ -7,3 +7,5 @@ There is a tool: The fixed-point designer tool.
 Note:
 I think that we need to download this https://www.mathworks.com/products/hdl-verifier.html and this https://www.mathworks.com/products/hdl-coder.html
 To make this work
+
+Also, be sure to use blocks that have the HDL label on them or they will not be able to be ported to the FPGA:
