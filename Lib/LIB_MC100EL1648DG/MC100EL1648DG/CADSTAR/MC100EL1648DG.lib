@@ -1,0 +1,18 @@
+.MC100EL1648DG :1
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="TANK" 2="VCC_1" 3="VCC_2" 4="OUT" 5="AGC" 6="VEE_1" 7="VEE_2" 8="BIAS"
+*MXP 8
+*DFN MC100EL1648DG
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (MC100EL1648DG)
+~!Mouser Part Number (863-MC100EL1648DG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/MC100EL1648DG?qs=3JMERSakebqE0DRlvq1XhA%3D%3D)
+~!Arrow Part Number (MC100EL1648DG)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mc100el1648dg/on-semiconductor)
+~!Link Datasheet (http://www.onsemi.com/pub/Collateral/MC100EL1648-D.PDF)
+~!Height (1.75mm)
+~!3D_Model (MC100EL1648DG)
+MC100EL1648DG
+1.1!U 2.1!P 3.1!P 4.1!Y 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MC100EL1648DG
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2015-08-06 07:59:47
+Downloaded=2023-12-16 21:07:58
+3D=Y
