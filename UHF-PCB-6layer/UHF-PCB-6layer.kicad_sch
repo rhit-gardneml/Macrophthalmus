@@ -2462,6 +2462,10 @@
     (stroke (width 0) (type default))
     (uuid 22e473cb-de9f-43a3-b011-ffc386afce49)
   )
+  (wire (pts (xy 373.38 129.54) (xy 373.38 134.62))
+    (stroke (width 0) (type default))
+    (uuid 2652310e-97a8-443a-af3e-2eaa7ff57944)
+  )
   (wire (pts (xy 316.23 182.88) (xy 316.23 180.34))
     (stroke (width 0) (type default))
     (uuid 296529aa-c1a8-4208-b1a8-8ca3a37d0a50)
@@ -2976,6 +2980,31 @@
       (project "UHF-PCB-6layer"
         (path "/408f5dbf-8c57-4b84-b0cc-1d788fcf6d08"
           (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GNDREF") (at 373.38 129.54 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 47e27e5c-9dd2-4038-a215-d41f49a54a8e)
+    (property "Reference" "#PWR013" (at 373.38 123.19 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GNDREF" (at 373.38 125.73 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 373.38 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 373.38 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c6cb0e26-36b3-4eac-a731-fee35774ae19))
+    (instances
+      (project "UHF-PCB-6layer"
+        (path "/408f5dbf-8c57-4b84-b0cc-1d788fcf6d08"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
