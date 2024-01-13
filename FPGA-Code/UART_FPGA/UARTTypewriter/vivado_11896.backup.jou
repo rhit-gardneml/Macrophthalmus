@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Oct 30 23:06:53 2023
+# Process ID: 11896
+# Current directory: C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22608 C:\Users\hoatsosa\Xilinx\ECE433\UARTTypewriter\UartTyperwriter2023fall.xpr
+# Log file: C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/vivado.log
+# Journal file: C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/UartTyperwriter2023fall.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/UartTyperwriter2023fall.runs/impl_1/UartTyperwriter2023fall.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/UartTyperwriter2023fall.runs/impl_1/UartTyperwriter2023fall.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/UartTyperwriter2023fall.runs/impl_1/UartTyperwriter2023fall.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

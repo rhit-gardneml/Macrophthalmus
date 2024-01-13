@@ -1,0 +1,1 @@
+-wto "8aea3d50a8474fe78ad72bec1b8ad84f" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "BPSK_Modulation_tb_behav" "xil_defaultlib.BPSK_Modulation_tb" -log "elaborate.log" 

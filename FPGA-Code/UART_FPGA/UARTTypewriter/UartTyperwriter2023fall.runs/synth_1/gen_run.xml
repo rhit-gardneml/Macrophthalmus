@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1702346277">
+  <File Type="PA-TCL" Name="UartTyperwriter2023fall.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="UartTyperwriter2023fall_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="UartTyperwriter2023fall_reports.tcl"/>
+  <File Type="RDS-RDS" Name="UartTyperwriter2023fall.vds"/>
+  <File Type="RDS-UTIL" Name="UartTyperwriter2023fall_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="UartTyperwriter2023fall_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="UartTyperwriter2023fall.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="UartTyperwriter2023fall_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="UartTyperwriter2023fall_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/BaudRateGenerator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/BaudRateGenerator.v"/>
+        <Attr Name="ImportTime" Val="1664368600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/UARTmodule2023fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/UARTmodule2023fall.v"/>
+        <Attr Name="ImportTime" Val="1664368621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/bbfifo_16x8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/bbfifo_16x8.v"/>
+        <Attr Name="ImportTime" Val="1269032520"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/kcuart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/kcuart_rx.v"/>
+        <Attr Name="ImportTime" Val="1269032460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/kcuart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/kcuart_tx.v"/>
+        <Attr Name="ImportTime" Val="1269032340"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1269032100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1269032100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.v"/>
+        <Attr Name="ImportTime" Val="1664368666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="UartTyperwriter2023fall"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.xdc"/>
+        <Attr Name="ImportTime" Val="1664376887"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

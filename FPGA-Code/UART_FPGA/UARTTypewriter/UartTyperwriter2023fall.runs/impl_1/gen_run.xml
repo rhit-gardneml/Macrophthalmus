@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1702346278">
+  <File Type="BITSTR-BMM" Name="UartTyperwriter2023fall_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="UartTyperwriter2023fall_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="UartTyperwriter2023fall_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="UartTyperwriter2023fall_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="UartTyperwriter2023fall.tcl"/>
+  <File Type="OPT-TIMING" Name="UartTyperwriter2023fall_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="UartTyperwriter2023fall_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="UartTyperwriter2023fall_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="UartTyperwriter2023fall_reports.tcl"/>
+  <File Type="OPT-DRC" Name="UartTyperwriter2023fall_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="UartTyperwriter2023fall.hwdef"/>
+  <File Type="PWROPT-DCP" Name="UartTyperwriter2023fall_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="UartTyperwriter2023fall_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="UartTyperwriter2023fall_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="UartTyperwriter2023fall_placed.dcp"/>
+  <File Type="PLACE-IO" Name="UartTyperwriter2023fall_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="UartTyperwriter2023fall_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="UartTyperwriter2023fall_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="UartTyperwriter2023fall_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="UartTyperwriter2023fall_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="UartTyperwriter2023fall_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="UartTyperwriter2023fall_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="UartTyperwriter2023fall_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="UartTyperwriter2023fall_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="UartTyperwriter2023fall.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="UartTyperwriter2023fall_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="UartTyperwriter2023fall_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="UartTyperwriter2023fall_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="UartTyperwriter2023fall.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="UartTyperwriter2023fall_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="UartTyperwriter2023fall_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="UartTyperwriter2023fall_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="UartTyperwriter2023fall_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="UartTyperwriter2023fall_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="UartTyperwriter2023fall_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="UartTyperwriter2023fall_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="UartTyperwriter2023fall.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="UartTyperwriter2023fall_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="UartTyperwriter2023fall_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="UartTyperwriter2023fall_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="UartTyperwriter2023fall_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="UartTyperwriter2023fall_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="UartTyperwriter2023fall_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="UartTyperwriter2023fall_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="UartTyperwriter2023fall_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="UartTyperwriter2023fall_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="UartTyperwriter2023fall_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="UartTyperwriter2023fall_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="UartTyperwriter2023fall_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="UartTyperwriter2023fall_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="UartTyperwriter2023fall_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="UartTyperwriter2023fall_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="UartTyperwriter2023fall_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="UartTyperwriter2023fall_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="UartTyperwriter2023fall_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="UartTyperwriter2023fall_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="UartTyperwriter2023fall_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="UartTyperwriter2023fall_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="UartTyperwriter2023fall.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="UartTyperwriter2023fall_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="UartTyperwriter2023fall.rbt"/>
+  <File Type="BITSTR-NKY" Name="UartTyperwriter2023fall.nky"/>
+  <File Type="PDI-FILE" Name="UartTyperwriter2023fall.pdi"/>
+  <File Type="RCFI_FILE" Name="UartTyperwriter2023fall.rcfi"/>
+  <File Type="CFI_FILE" Name="UartTyperwriter2023fall.cfi"/>
+  <File Type="RNPI_FILE" Name="UartTyperwriter2023fall.rnpi"/>
+  <File Type="NPI_FILE" Name="UartTyperwriter2023fall.npi"/>
+  <File Type="RBD_FILE" Name="UartTyperwriter2023fall.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="UartTyperwriter2023fall.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="UartTyperwriter2023fall.sysdef"/>
+  <File Type="BG-BGN" Name="UartTyperwriter2023fall.bgn"/>
+  <File Type="BG-DRC" Name="UartTyperwriter2023fall.drc"/>
+  <File Type="RDI-RDI" Name="UartTyperwriter2023fall.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/BaudRateGenerator.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/BaudRateGenerator.v"/>
+        <Attr Name="ImportTime" Val="1664368600"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/UARTmodule2023fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/UARTmodule2023fall.v"/>
+        <Attr Name="ImportTime" Val="1664368621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/bbfifo_16x8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/bbfifo_16x8.v"/>
+        <Attr Name="ImportTime" Val="1269032520"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/kcuart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/kcuart_rx.v"/>
+        <Attr Name="ImportTime" Val="1269032460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/kcuart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/kcuart_tx.v"/>
+        <Attr Name="ImportTime" Val="1269032340"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/uart_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/uart_rx.v"/>
+        <Attr Name="ImportTime" Val="1269032100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/uart_tx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/uart_tx.v"/>
+        <Attr Name="ImportTime" Val="1269032100"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.v"/>
+        <Attr Name="ImportTime" Val="1664368666"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="UartTyperwriter2023fall"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Sources_UartTyperwriter2023fall/UartTyperwriter2023fall.xdc"/>
+        <Attr Name="ImportTime" Val="1664376887"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

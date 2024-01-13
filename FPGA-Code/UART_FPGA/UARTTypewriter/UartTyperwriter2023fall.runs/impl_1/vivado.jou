@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Mon Dec 11 20:59:19 2023
+# Process ID: 17892
+# Current directory: C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/UartTyperwriter2023fall.runs/impl_1
+# Command line: vivado.exe -log UartTyperwriter2023fall.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source UartTyperwriter2023fall.tcl -notrace
+# Log file: C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/UartTyperwriter2023fall.runs/impl_1/UartTyperwriter2023fall.vdi
+# Journal file: C:/Users/hoatsosa/Xilinx/ECE433/UARTTypewriter/UartTyperwriter2023fall.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source UartTyperwriter2023fall.tcl -notrace

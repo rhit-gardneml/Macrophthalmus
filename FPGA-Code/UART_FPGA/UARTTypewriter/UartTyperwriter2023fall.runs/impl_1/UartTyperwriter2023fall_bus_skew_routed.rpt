@@ -1,0 +1,15 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2.1 (win64) Build 2729669 Thu Dec  5 04:49:17 MST 2019
+| Date         : Mon Dec 11 21:00:54 2023
+| Host         : RHIT-R90Y2R7E running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file UartTyperwriter2023fall_bus_skew_routed.rpt -pb UartTyperwriter2023fall_bus_skew_routed.pb -rpx UartTyperwriter2023fall_bus_skew_routed.rpx
+| Design       : UartTyperwriter2023fall
+| Device       : 7a35ti-csg324
+| Speed File   : -1L  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+
