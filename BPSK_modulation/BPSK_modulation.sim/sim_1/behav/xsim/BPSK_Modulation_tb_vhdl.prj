@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BPSK_modulation.srcs/sources_1/imports/sine_testbench/sine_package.vhd" \
+"../../../../BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd" \
+"../../../../BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd" \
+"../../../../BPSK_modulation.srcs/sources_1/imports/sine_testbench/sine_wave.vhd" \
+"../../../../BPSK_modulation.srcs/sources_1/new/BPSK_Modulation_tb.vhd" \
+
+# Do not sort compile order
+nosort
