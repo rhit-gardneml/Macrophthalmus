@@ -208,7 +208,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 02d1f0d0-7378-4e4d-92b0-8c599299a334)
-    (at 120.005 69.342)
+    (at 38.113 37.114)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -262,7 +262,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 138e57ef-dbeb-460d-9ca4-960b8f3aab70)
-    (at 115.995 84.402)
+    (at 34.103 52.174)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -316,7 +316,7 @@
 
   (footprint "LNA:TE2769_MNC" (layer "F.Cu")
     (tstamp 1d23deb8-dde5-4cdd-81b3-b243a341132d)
-    (at 154.1632 91.54)
+    (at 64.8703 45.1122)
     (tags "TAV1-331+ ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -388,7 +388,7 @@
 
   (footprint "VCO:TSSOP8_3P10X3P10_ONS" (layer "F.Cu")
     (tstamp 2665ac8d-d27e-4b00-b691-9de73954f2ab)
-    (at 151.7769 87.5758)
+    (at 62.484 41.148)
     (tags "MC100EL1648DTR2G ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -544,7 +544,7 @@
 
   (footprint "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" (layer "F.Cu")
     (tstamp 3483b451-7a75-49a2-bcc7-ebee9da97e4f)
-    (at 152.06 74.522)
+    (at 131.5205 98.806)
     (descr "LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -602,7 +602,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 376f4682-4e05-4b75-9035-657d6dda5d69)
-    (at 120.005 84.402)
+    (at 38.113 52.174)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -656,7 +656,7 @@
 
   (footprint "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" (layer "F.Cu")
     (tstamp 39400d37-c9a4-447a-883f-42d898513642)
-    (at 152.06 83.102)
+    (at 131.5205 107.386)
     (descr "LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -714,7 +714,7 @@
 
   (footprint "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" (layer "F.Cu")
     (tstamp 402be1b2-1d06-4872-a65d-0702d0fbeef6)
-    (at 152.06 70.232)
+    (at 131.5205 94.516)
     (descr "LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -772,7 +772,7 @@
 
   (footprint "TerminalBlock_Altech:Altech_AK300_1x07_P5.00mm_45-Degree" (layer "F.Cu")
     (tstamp 4520a989-eab9-44e4-a049-767e4db113ba)
-    (at 103.8 60.812)
+    (at 101.586 126.492)
     (descr "Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)")
     (tags "Altech AK300 serie connector")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -851,7 +851,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 46ce69d1-72e4-4310-b4b2-554a2b0d0f1d)
-    (at 115.995 71.852)
+    (at 34.103 39.624)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -905,7 +905,7 @@
 
   (footprint "MC:LQFP48_PT_TEX" (layer "F.Cu")
     (tstamp 558c4c4a-4941-4fca-b925-e6565829d9c1)
-    (at 131.981 74.048)
+    (at 28.956 26.67)
     (tags "XMSM0G3507SPT ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -1525,7 +1525,7 @@
 
   (footprint "LED_SMD:LED_2010_5025Metric_Pad1.52x2.65mm_HandSolder" (layer "F.Cu")
     (tstamp 5ae69fb1-c2db-4d96-87d9-6ba1100d7cc1)
-    (at 152.06 78.812)
+    (at 131.5205 103.096)
     (descr "LED SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1583,7 +1583,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 6407d51d-8fff-46b9-9b4a-b376b1b2ec30)
-    (at 115.995 79.382)
+    (at 34.103 47.154)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1637,7 +1637,7 @@
 
   (footprint "TerminalBlock_Altech:Altech_AK300_1x07_P5.00mm_45-Degree" (layer "F.Cu")
     (tstamp 6afd8148-2b17-4797-bb5d-abe912594113)
-    (at 103.8 46.477)
+    (at 21.148 127.254)
     (descr "Altech AK300 serie terminal block (Script generated with StandardBox.py) (http://www.altechcorp.com/PDFS/PCBMETRC.PDF)")
     (tags "Altech AK300 serie connector")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1719,7 +1719,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp 6df8c021-b75a-402a-ab62-6fd77e306e5b)
-    (at 120.005 71.852)
+    (at 38.113 39.624)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1773,7 +1773,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 6ec3dba9-76e6-47d4-97e7-c00091bbc930)
-    (at 124.015 69.342)
+    (at 42.123 37.114)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1827,7 +1827,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 7aec809e-afd6-40f5-b456-f54f2ef4c3d5)
-    (at 120.005 81.892)
+    (at 38.113 49.664)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1881,7 +1881,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 7ff9f6c1-88d1-4865-b251-9a95a62d7278)
-    (at 124.015 76.872)
+    (at 42.123 44.644)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1935,7 +1935,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric" (layer "F.Cu")
     (tstamp 890a064b-e837-474b-b5ee-f748a64e2290)
-    (at 150.185 91.192)
+    (at 60.8921 44.7642)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -1995,7 +1995,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp 90bbc6d5-ead5-4efc-b2ca-e8ff550a97eb)
-    (at 124.015 74.362)
+    (at 42.123 42.134)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -2049,7 +2049,7 @@
 
   (footprint "MIX:DZ1650_MNC" (layer "F.Cu")
     (tstamp 912f0bf4-515c-42cb-90cd-27515d0366c7)
-    (at 143.8883 82.0076)
+    (at 69.6595 67.9544)
     (tags "MAC-24+ ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -2141,7 +2141,7 @@
 
   (footprint "LPF:SO-8_S_LIT" (layer "F.Cu")
     (tstamp 93d5d875-d88c-4d70-8fff-531d7d38b321)
-    (at 130.3046 90.0033)
+    (at 55.2577 38.5412)
     (tags "LTC1566-1IS8-PBF ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -2297,7 +2297,7 @@
 
   (footprint "BPF:HF1139_MNC" (layer "F.Cu")
     (tstamp a66e4bdb-41a4-431b-b3df-5f4e8ac07f23)
-    (at 107.1154 78.3152)
+    (at 51.816 62.992)
     (tags "SXBP425+ ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -2443,7 +2443,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp a854d55f-3b76-468f-8f49-eaf301cba957)
-    (at 115.995 76.872)
+    (at 34.103 44.644)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -2497,7 +2497,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp ac73c614-873c-4c37-aec4-b760727f9da7)
-    (at 124.015 71.852)
+    (at 42.123 39.624)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -2551,7 +2551,7 @@
 
   (footprint "Inductor_SMD:L_0603_1608Metric" (layer "F.Cu")
     (tstamp b3d484c8-094f-456a-82b6-f144d96d70e8)
-    (at 120.005 76.872)
+    (at 38.113 44.644)
     (descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -2605,7 +2605,7 @@
 
   (footprint "MIX:DZ1650_MNC" (layer "F.Cu")
     (tstamp bfe356a1-d500-4ea3-98f1-f56735d1091d)
-    (at 143.8883 72.7272)
+    (at 69.6595 58.674)
     (tags "MAC-24+ ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -2697,7 +2697,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp d1fd8d36-99e5-4ff5-934f-08e703d36661)
-    (at 115.995 81.892)
+    (at 34.103 49.664)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -2751,7 +2751,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tstamp d42186c8-8cb0-43c5-af97-fb3fbbaecc48)
-    (at 120.005 79.382)
+    (at 38.113 47.154)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -2805,7 +2805,7 @@
 
   (footprint "WDT:SO-8_STM" (layer "F.Cu")
     (tstamp d5e2976d-3533-4af9-bddd-07e991f445f0)
-    (at 130.3046 83.3391)
+    (at 55.2577 31.877)
     (tags "STM818LM6F ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
@@ -2947,13 +2947,13 @@
 
   (footprint "fpga:CS&slash_CSG324_XIL" (layer "F.Cu")
     (tstamp df6b7631-b33e-4773-9b68-37dd3033e0ac)
-    (at 145.4059 47.7529)
+    (at 30.156 66.644)
     (tags "XA7A100T-1CSG324Q ")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
     (property "Sheetname" "")
     (path "/ad0a1e9a-5b12-4c1a-8029-c16f58d6c55d")
     (attr smd)
-    (fp_text reference "U6" (at 0 0 unlocked) (layer "F.SilkS")
+    (fp_text reference "U6" (at -1.492 -0.984 unlocked) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fbd187a9-1300-4881-a536-07e3e9e0990d)
     )
@@ -3005,7 +3005,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c84953a2-e816-43fd-9ca2-7f392811e9c1)
     )
-    (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -1.492 -0.984 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee15d3db-c4a9-40ae-bf08-a9e8b55f1030)
     )
@@ -3481,7 +3481,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp e3df2721-539c-4486-af77-8aa451df06a8)
-    (at 120.005 74.362)
+    (at 38.113 42.134)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -3535,7 +3535,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp ea41495b-6506-4bc9-9795-960acdc0372c)
-    (at 115.995 74.362)
+    (at 34.103 42.134)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -3589,7 +3589,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tstamp fca9641e-6bf9-4321-92bf-efa901de3c30)
-    (at 115.995 69.342)
+    (at 34.103 37.114)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "UHF-PCB-6layer.kicad_sch")
@@ -3640,5 +3640,10 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_rect (start 16.868 15.852) (end 86.868 85.852)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp 23b5862b-2a06-4458-8e59-1c6acae765ca))
+  (gr_rect (start 16.868 15.852) (end 136.868 135.852)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp 279bcdb7-514a-480e-8006-081b50570fc6))
 
 )
