@@ -1,0 +1,309 @@
+
+*** Running vivado
+    with args -log BPSK_Modulation_tb.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source BPSK_Modulation_tb.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source BPSK_Modulation_tb.tcl -notrace
+Command: synth_design -top BPSK_Modulation_tb -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23316 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 506.004 ; gain = 207.957
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'BPSK_Modulation_tb' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_Modulation_tb.vhd:38]
+INFO: [Synth 8-3491] module 'BPSK_TopLevel' declared at 'C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd:16' bound to instance 'ExampleTestbench' of component 'BPSK_TopLevel' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_Modulation_tb.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'BPSK_TopLevel' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd:25]
+INFO: [Synth 8-3491] module 'sine_wave' declared at 'C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/imports/sine_testbench/sine_wave.vhd:10' bound to instance 'Sine_Generate' of component 'sine_wave' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'sine_wave' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/imports/sine_testbench/sine_wave.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'sine_wave' (1#1) [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/imports/sine_testbench/sine_wave.vhd:15]
+INFO: [Synth 8-3491] module 'BitSeperator' declared at 'C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:33' bound to instance 'BitSeperate' of component 'BitSeperator' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'BitSeperator' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:41]
+WARNING: [Synth 8-614] signal 'done_counting' is read in the process but is not in the sensitivity list [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:55]
+WARNING: [Synth 8-614] signal 'hold' is read in the process but is not in the sensitivity list [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:86]
+WARNING: [Synth 8-614] signal 'middle' is read in the process but is not in the sensitivity list [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'BitSeperator' (2#1) [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:41]
+WARNING: [Synth 8-614] signal 'outputBit' is read in the process but is not in the sensitivity list [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd:67]
+WARNING: [Synth 8-614] signal 'v_sine' is read in the process but is not in the sensitivity list [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'BPSK_TopLevel' (3#1) [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_TopLevel.vhd:25]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_Modulation_tb.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'BPSK_Modulation_tb' (4#1) [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BPSK_Modulation_tb.vhd:38]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 580.914 ; gain = 282.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 580.914 ; gain = 282.867
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 580.914 ; gain = 282.867
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/imports/sine_testbench/sine_wave.vhd:59]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'sine_wave'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'BitSeperator'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             counting_up |                               00 |                               00
+             change_down |                               01 |                               01
+           counting_down |                               10 |                               10
+                  iSTATE |                               11 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'sine_wave'
+WARNING: [Synth 8-327] inferring latch for variable 'out_bit_reg' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:102]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                                0 |                               00
+                      s1 |                                1 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'BitSeperator'
+WARNING: [Synth 8-327] inferring latch for variable 'done_counting_reg' [C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.srcs/sources_1/new/BitSeperator.vhd:108]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 580.914 ; gain = 282.867
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sine_wave 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      7 Bit       Adders := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 4     
+	   4 Input      2 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+Module BitSeperator 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module BPSK_TopLevel 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (ExampleTestbench/Sine_Generate/FSM_sequential_state_reg[1]) is unused and will be removed from module BPSK_Modulation_tb.
+WARNING: [Synth 8-3332] Sequential element (ExampleTestbench/Sine_Generate/FSM_sequential_state_reg[0]) is unused and will be removed from module BPSK_Modulation_tb.
+WARNING: [Synth 8-3332] Sequential element (ExampleTestbench/BitSeperate/out_bit_reg) is unused and will be removed from module BPSK_Modulation_tb.
+WARNING: [Synth 8-3332] Sequential element (ExampleTestbench/BitSeperate/FSM_sequential_current_state_reg) is unused and will be removed from module BPSK_Modulation_tb.
+WARNING: [Synth 8-3332] Sequential element (ExampleTestbench/BitSeperate/done_counting_reg) is unused and will be removed from module BPSK_Modulation_tb.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+-------------+---------------+----------------+
+|Module Name | RTL Object  | Depth x Width | Implemented As | 
++------------+-------------+---------------+----------------+
+|sine_wave   | table_value | 128x7         | LUT            | 
++------------+-------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 743.656 ; gain = 445.609
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 743.656 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 851.453 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 851.453 ; gain = 553.406
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 851.453 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/robinsvs/Documents/Academics/Senior Year/Senior Project/BPSK_modulation/BPSK_modulation.runs/synth_1/BPSK_Modulation_tb.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file BPSK_Modulation_tb_utilization_synth.rpt -pb BPSK_Modulation_tb_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 13 14:33:06 2024...

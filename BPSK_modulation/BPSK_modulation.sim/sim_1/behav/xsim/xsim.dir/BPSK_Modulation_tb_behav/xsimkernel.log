@@ -1,0 +1,4 @@
+Running: xsim.dir/BPSK_Modulation_tb_behav/xsimk.exe -simmode gui -wdb BPSK_Modulation_tb_behav.wdb -simrunnum 0 -socket 62327
+Design successfully loaded
+Design Loading Memory Usage: 5936 KB (Peak: 5936 KB)
+Design Loading CPU Usage: 15 ms
