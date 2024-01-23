@@ -1,0 +1,73 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "MSPM0G350X" --package "LQFP-64(PM)" --part "Default" --product "mspm0_sdk@1.20.01.06"
+ * @versions {"tool":"1.18.0+3266"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const DAC12  = scripting.addModule("/ti/driverlib/DAC12");
+const DMA    = scripting.addModule("/ti/driverlib/DMA");
+const SYSCTL = scripting.addModule("/ti/driverlib/SYSCTL");
+const UART   = scripting.addModule("/ti/driverlib/UART", {}, false);
+const UART1  = UART.addInstance();
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+const gate8  = system.clockTree["MFPCLKGATE"];
+gate8.enable = true;
+
+DAC12.dacConfigureDMA                   = true;
+DAC12.dacFIFOEn                         = true;
+DAC12.dacFIFOThresh                     = "TWO_QTRS_EMPTY";
+DAC12.dacOutputPinEn                    = true;
+DAC12.dacAmplifier                      = "ON";
+DAC12.enabledEvents                     = ["DMA_DONE"];
+DAC12.dacEnabledInterrupts              = ["DMA_DONE","FIFO_EMPTY","FIFO_FULL","FIFO_ONE_QTR_EMPTY","FIFO_THREE_QTRS_EMPTY","FIFO_TWO_QTRS_EMPTY","FIFO_UNDERRUN","MODULE_READY"];
+DAC12.dacSampleTimerRate                = "1M";
+DAC12.DMA_CHANNEL.$name                 = "DMA_CH0";
+DAC12.DMA_CHANNEL.addressMode           = "b2f";
+DAC12.DMA_CHANNEL.srcLength             = "HALF_WORD";
+DAC12.DMA_CHANNEL.dstLength             = "HALF_WORD";
+DAC12.DMA_CHANNEL.enableInterrupt       = true;
+DAC12.DMA_CHANNEL.configureTransferSize = true;
+DAC12.DMA_CHANNEL.transferMode          = "FULL_CH_REPEAT_SINGLE";
+DAC12.DMA_CHANNEL.transferSize          = 64;
+DAC12.DMA_CHANNEL.peripheral.$assign    = "DMA_CH0";
+DAC12.OutPinConfig.$name                = "ti_driverlib_gpio_GPIOPinGeneric0";
+
+const Board = scripting.addModule("/ti/driverlib/Board", {}, false);
+
+SYSCTL.MFPCLKEn              = true;
+SYSCTL.forceDefaultClkConfig = true;
+SYSCTL.clockTreeEn           = true;
+
+UART1.$name              = "UART_0";
+UART1.flowControl        = "RTS_CTS";
+UART1.enabledInterrupts  = ["CTS_DONE"];
+UART1.direction          = "RX";
+UART1.enableFIFO         = true;
+UART1.rxFifoThreshold    = "DL_UART_RX_FIFO_LEVEL_ONE_ENTRY";
+UART1.txFifoThreshold    = "DL_UART_TX_FIFO_LEVEL_3_4_EMPTY";
+UART1.enableExtend       = true;
+UART1.rxPinConfig.$name  = "ti_driverlib_gpio_GPIOPinGeneric2";
+UART1.rtsPinConfig.$name = "ti_driverlib_gpio_GPIOPinGeneric3";
+UART1.ctsPinConfig.$name = "ti_driverlib_gpio_GPIOPinGeneric4";
+
+/**
+ * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
+ * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
+ * re-solve from scratch.
+ */
+DAC12.peripheral.$suggestSolution          = "DAC0";
+DAC12.peripheral.OutPin.$suggestSolution   = "PA15";
+Board.peripheral.$suggestSolution          = "DEBUGSS";
+Board.peripheral.swclkPin.$suggestSolution = "PA20";
+Board.peripheral.swdioPin.$suggestSolution = "PA19";
+UART1.peripheral.$suggestSolution          = "UART0";
+UART1.peripheral.rxPin.$suggestSolution    = "PA1";
+UART1.peripheral.rtsPin.$suggestSolution   = "PA8";
+UART1.peripheral.ctsPin.$suggestSolution   = "PA14";
