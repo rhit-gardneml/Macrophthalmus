@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2019.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="44" Path="C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="2f935b1c7ab247d892b77d02c354993d"/>
+    <Option Name="Part" Val="xc7a35ticsg324-1L"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="WTXSimLaunchSim" Val="2"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Rx_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Rx_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1706218384"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant5.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Compare_To_Constant5.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/RAM_Frame_Status_Indicator.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/RAM_Frame_Status_Indicator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/SimpleDualPortRAM_singlebit.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/SimpleDualPortRAM_singlebit.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/MATLAB_Function1.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/MATLAB_Function1.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Data_Bits_FIFO.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant2.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Compare_To_Constant2.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant2_block.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Compare_To_Constant2_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Preamble_Bits_Store.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Preamble_Bits_Store.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Preamble_Bits_Generator.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Preamble_Bits_Generator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Compare_To_Constant.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant1.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Compare_To_Constant1.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Bit_Packetizer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Bit_Packetizer.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FilterCoef.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FilterCoef.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FilterTapSystolicWvldin.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FilterTapSystolicWvldin.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/subFilter.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/subFilter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FilterCoef_block1.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FilterCoef_block1.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FilterCoef_block.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FilterCoef_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Filter.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Filter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/HDL_Data_Scrambler.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/HDL_Data_Scrambler.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Tx_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Modulator_Baseband.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Modulator_Baseband.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Modulator.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Modulator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/RRC_Filter.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/RRC_Filter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/RRC_Transmit_Filter.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/RRC_Transmit_Filter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Tx.vhd"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx_tb_pkg.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Tx_tb_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1706218267"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Tx_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1706218267"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Error_Detector.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Error_Detector.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Loop_Filter.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Loop_Filter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Automatic_Gain_Control.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Automatic_Gain_Control.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Average_Estimates.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Average_Estimates.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/CFO_step_change_detector.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/CFO_step_change_detector.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Phase_Error_Detector.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Phase_Error_Detector.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Loop_Filter_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Loop_Filter_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/DitherGen.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/DitherGen.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/CosLookUpTableGen.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/CosLookUpTableGen.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/SinLookUpTableGen.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/SinLookUpTableGen.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/WaveformGen.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/WaveformGen.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/NCO.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/NCO.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Direct_Digital_Synthesis.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Direct_Digital_Synthesis.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Carrier_Synchronizer.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Carrier_Synchronizer.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Raise_Power_to_4.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Raise_Power_to_4.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Reset_Generator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Reset_Generator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Integrator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Integrator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Quadrant_Mapper.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Quadrant_Mapper.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/CordicKernelMag.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/CordicKernelMag.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Quadrant_Correction.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Quadrant_Correction.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/HDL_CMA_core.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/HDL_CMA_core.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Extract_Frequency.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Extract_Frequency.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Coarse_Frequency_Estimator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Coarse_Frequency_Estimator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/CosLookUpTableGen_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/CosLookUpTableGen_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/SinLookUpTableGen_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/SinLookUpTableGen_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/WaveformGen_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/WaveformGen_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/NCO_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/NCO_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Coarse_Frequency_Compensator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Coarse_Frequency_Compensator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant1_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Compare_To_Constant1_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Compare_To_Constant_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/CordicKernelMag_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/CordicKernelMag_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Discrete_FIR_Filter.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Discrete_FIR_Filter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Magnitude_Squared.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Magnitude_Squared.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Magnitude_Squared_and_Moving_Sum.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Magnitude_Squared_and_Moving_Sum.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/ThresholdLimiter.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/ThresholdLimiter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Correlator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Correlator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/End_Generator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/End_Generator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/MATLAB_Function_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/MATLAB_Function_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Validate_Input_Push_Pop.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Validate_Input_Push_Pop.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/SimpleDualPortRAM_generic.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/SimpleDualPortRAM_generic.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FIFO.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FIFO.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/MATLAB_Function_block1.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/MATLAB_Function_block1.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Validate_Input_Push_Pop_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Validate_Input_Push_Pop_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FIFO_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FIFO_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FilterCoef_block2.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FilterCoef_block2.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/FilterTapSystolicPreAddWvlIn.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/FilterTapSystolicPreAddWvlIn.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/subFilter_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/subFilter_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Filter_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Filter_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/GTED.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/GTED.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Gardner_TED.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Gardner_TED.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Loop_Filter_block1.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Loop_Filter_block1.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Interpolation_Control.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Interpolation_Control.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Interpolation_Filter.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Interpolation_Filter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Rate_Handle.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Rate_Handle.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Symbol_Synchronizer.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Symbol_Synchronizer.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Peak_Search.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Peak_Search.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Timing_Adjust.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Timing_Adjust.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Preamble_Detector.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Preamble_Detector.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Subsystem.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Subsystem.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Subsystem1.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Subsystem1.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Phase_Ambiguity_Estimator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Phase_Ambiguity_Estimator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Quadrant_Mapper_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Quadrant_Mapper_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/HDL_CMA_core_block.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/HDL_CMA_core_block.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Function_Impl.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Function_Impl.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Reciprocal.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Reciprocal.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Phase_Ambiguity_Corrector.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Phase_Ambiguity_Corrector.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Phase_Ambiguity_Estimation_and_Correction.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Phase_Ambiguity_Estimation_and_Correction.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/MATLAB_Function.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/MATLAB_Function.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/sample_discard_controller.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/sample_discard_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Packet_Controller.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Packet_Controller.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Frequency_and_Time_Synchronizer.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Frequency_and_Time_Synchronizer.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/HDL_Data_Descrambler.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/HDL_Data_Descrambler.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Demodulator_Baseband.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Demodulator_Baseband.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/Serializer.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/Serializer.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Demodulator.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Demodulator.vhd"/>
+          <Attr Name="ImportTime" Val="1706218383"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/RRC_Receive_Filter.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/RRC_Receive_Filter.vhd"/>
+          <Attr Name="ImportTime" Val="1706218384"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Rx.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Rx.vhd"/>
+          <Attr Name="ImportTime" Val="1706218384"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Rx_tb_pkg.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Rx_tb_pkg.vhd"/>
+          <Attr Name="ImportTime" Val="1706218472"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Rx_tb.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Rx_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1706218472"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/ctrlOut_endOut_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/ctrlOut_endOut_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218468"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/txDiagBus_QPSKConstellationPoints_re_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/txDiagBus_QPSKConstellationPoints_re_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218264"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/dataReady_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/dataReady_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218262"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/rxDiagBus_QPSKConstellationValid_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/rxDiagBus_QPSKConstellationValid_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218471"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/dataOut_re_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/dataOut_re_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218263"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/dataIn_re.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/dataIn_re.dat"/>
+          <Attr Name="ImportTime" Val="1706218466"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/rxDiagBus_QPSKConstellationPoints_im_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/rxDiagBus_QPSKConstellationPoints_im_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218471"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/rxDiagBus_normCoarseFreqEst_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/rxDiagBus_normCoarseFreqEst_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218470"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/txDiagBus_QPSKConstellationPoints_im_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/txDiagBus_QPSKConstellationPoints_im_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218265"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/rxDiagBus_QPSKConstellationPoints_re_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/rxDiagBus_QPSKConstellationPoints_re_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218470"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/txDiagBus_QPSKConstellationValid_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/txDiagBus_QPSKConstellationValid_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218265"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/dataOut_im_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/dataOut_im_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218264"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/validIn.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/validIn.dat"/>
+          <Attr Name="ImportTime" Val="1706218467"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/validOut_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/validOut_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218265"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/dataIn.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/dataIn.dat"/>
+          <Attr Name="ImportTime" Val="1706218262"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/ctrlOut_startOut_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/ctrlOut_startOut_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218468"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/dataOut_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/dataOut_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218468"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/ctrlOut_validOut_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/ctrlOut_validOut_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218469"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx_map.txt">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/QPSK_Tx_map.txt"/>
+          <Attr Name="ImportTime" Val="1706218059"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/dataIn_im.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/dataIn_im.dat"/>
+          <Attr Name="ImportTime" Val="1706218467"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/commhdlQPSKTxRx/rxDiagBus_nSynced_expected.dat">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../MATLAB/Examples/R2023b/comm_hdlcoder/QPSKTxRxHDLExample/hdl_prj/hdlsrc/commhdlQPSKTxRx/rxDiagBus_nSynced_expected.dat"/>
+          <Attr Name="ImportTime" Val="1706218469"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="QPSK_Tx_tb"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <File Path="$PPRDIR/QPSK_Rx_tb_behav.wcfg">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="QPSK_Rx_tb"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/QPSK_Rx_tb_behav.wcfg"/>
+        <Option Name="xsim.simulate.runtime" Val="1s"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+      <Filter Type="Utils"/>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="11">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a35ticsg324-1L" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design" EnableStepBool="1"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2019"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+  </Runs>
+  <Board/>
+  <DashboardSummary Version="1" Minor="0">
+    <Dashboards>
+      <Dashboard Name="default_dashboard">
+        <Gadgets>
+          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
+          </Gadget>
+          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
+          </Gadget>
+          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
+          </Gadget>
+          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
+          </Gadget>
+          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
+            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
+            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
+          </Gadget>
+          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
+          </Gadget>
+        </Gadgets>
+      </Dashboard>
+      <CurrentDashboard>default_dashboard</CurrentDashboard>
+    </Dashboards>
+  </DashboardSummary>
+</Project>

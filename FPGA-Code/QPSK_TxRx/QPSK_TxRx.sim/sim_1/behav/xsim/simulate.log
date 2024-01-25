@@ -1,0 +1,4 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Note: **************TEST COMPLETED (PASSED)**************
+Time: 2817650 ns  Iteration: 1  Process: /QPSK_Rx_tb/completed_msg  File: C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Rx_tb.vhd

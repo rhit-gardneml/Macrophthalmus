@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="QPSK_Rx_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="QPSK_Rx_tb" />
+            <top_module name="qpsk_rx_pkg" />
+            <top_module name="qpsk_rx_tb_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1200000000fs"></ZoomStartTime>
+      <ZoomEndTime time="2600159495fs"></ZoomEndTime>
+      <Cursor1Time time="2817640000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="216"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="116" />
+   <wvobject fp_name="/QPSK_Rx_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/clk_enable" type="logic">
+      <obj_property name="ElementShortName">clk_enable</obj_property>
+      <obj_property name="ObjectShortName">clk_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rawData_rstCS" type="logic">
+      <obj_property name="ElementShortName">rawData_rstCS</obj_property>
+      <obj_property name="ObjectShortName">rawData_rstCS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid_done" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid_done</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rdEnb" type="logic">
+      <obj_property name="ElementShortName">rdEnb</obj_property>
+      <obj_property name="ObjectShortName">rdEnb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid_done_enb" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid_done_enb</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_addr" type="array">
+      <obj_property name="ElementShortName">dataOut_addr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut_addr[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid_lastAddr" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/resetn" type="logic">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check8_done" type="logic">
+      <obj_property name="ElementShortName">check8_done</obj_property>
+      <obj_property name="ObjectShortName">check8_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_done" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_done</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_done_enb" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_done_enb</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_lastAddr" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check7_done" type="logic">
+      <obj_property name="ElementShortName">check7_done</obj_property>
+      <obj_property name="ObjectShortName">check7_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_done" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_done</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_done_enb" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_done_enb</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_lastAddr" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check6_done" type="logic">
+      <obj_property name="ElementShortName">check6_done</obj_property>
+      <obj_property name="ObjectShortName">check6_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced_done" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced_done</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced_done_enb" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced_done_enb</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced_lastAddr" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check5_done" type="logic">
+      <obj_property name="ElementShortName">check5_done</obj_property>
+      <obj_property name="ObjectShortName">check5_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut_done" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_validOut_done</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut_done_enb" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_validOut_done_enb</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut_lastAddr" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_validOut_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check4_done" type="logic">
+      <obj_property name="ElementShortName">check4_done</obj_property>
+      <obj_property name="ObjectShortName">check4_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut_done" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_endOut_done</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut_done_enb" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_endOut_done_enb</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut_lastAddr" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_endOut_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check3_done" type="logic">
+      <obj_property name="ElementShortName">check3_done</obj_property>
+      <obj_property name="ObjectShortName">check3_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut_done" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_startOut_done</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut_done_enb" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_startOut_done_enb</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut_lastAddr" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_startOut_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check2_done" type="logic">
+      <obj_property name="ElementShortName">check2_done</obj_property>
+      <obj_property name="ObjectShortName">check2_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_done" type="logic">
+      <obj_property name="ElementShortName">dataOut_done</obj_property>
+      <obj_property name="ObjectShortName">dataOut_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_done_enb" type="logic">
+      <obj_property name="ElementShortName">dataOut_done_enb</obj_property>
+      <obj_property name="ObjectShortName">dataOut_done_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_active" type="logic">
+      <obj_property name="ElementShortName">dataOut_active</obj_property>
+      <obj_property name="ObjectShortName">dataOut_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/holdData_rstCS" type="logic">
+      <obj_property name="ElementShortName">holdData_rstCS</obj_property>
+      <obj_property name="ObjectShortName">holdData_rstCS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rstCS_offset" type="logic">
+      <obj_property name="ElementShortName">rstCS_offset</obj_property>
+      <obj_property name="ObjectShortName">rstCS_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rstCS_1" type="logic">
+      <obj_property name="ElementShortName">rstCS_1</obj_property>
+      <obj_property name="ObjectShortName">rstCS_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/Data_Type_Conversion7_out1_addr" type="array">
+      <obj_property name="ElementShortName">Data_Type_Conversion7_out1_addr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_Type_Conversion7_out1_addr[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/Channel_out2_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">Channel_out2_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">Channel_out2_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/tb_enb_delay" type="logic">
+      <obj_property name="ElementShortName">tb_enb_delay</obj_property>
+      <obj_property name="ObjectShortName">tb_enb_delay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rawData_validIn" type="logic">
+      <obj_property name="ElementShortName">rawData_validIn</obj_property>
+      <obj_property name="ObjectShortName">rawData_validIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/holdData_validIn" type="logic">
+      <obj_property name="ElementShortName">holdData_validIn</obj_property>
+      <obj_property name="ObjectShortName">holdData_validIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/validIn_offset" type="logic">
+      <obj_property name="ElementShortName">validIn_offset</obj_property>
+      <obj_property name="ObjectShortName">validIn_offset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/validIn" type="logic">
+      <obj_property name="ElementShortName">validIn</obj_property>
+      <obj_property name="ObjectShortName">validIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/Data_Type_Conversion7_out1_addr_delay" type="array">
+      <obj_property name="ElementShortName">Data_Type_Conversion7_out1_addr_delay[18:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_Type_Conversion7_out1_addr_delay[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rawData_dataIn_im" type="array">
+      <obj_property name="ElementShortName">rawData_dataIn_im[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rawData_dataIn_im[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/holdData_dataIn_im" type="array">
+      <obj_property name="ElementShortName">holdData_dataIn_im[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdData_dataIn_im[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataIn_im_offset" type="array">
+      <obj_property name="ElementShortName">dataIn_im_offset[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn_im_offset[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataIn_im" type="array">
+      <obj_property name="ElementShortName">dataIn_im[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn_im[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataIn_im_1" type="array">
+      <obj_property name="ElementShortName">dataIn_im_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn_im_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/Data_Type_Conversion7_out1_active" type="logic">
+      <obj_property name="ElementShortName">Data_Type_Conversion7_out1_active</obj_property>
+      <obj_property name="ObjectShortName">Data_Type_Conversion7_out1_active</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/Data_Type_Conversion7_out1_enb" type="logic">
+      <obj_property name="ElementShortName">Data_Type_Conversion7_out1_enb</obj_property>
+      <obj_property name="ObjectShortName">Data_Type_Conversion7_out1_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rawData_dataIn_re" type="array">
+      <obj_property name="ElementShortName">rawData_dataIn_re[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rawData_dataIn_re[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/holdData_dataIn_re" type="array">
+      <obj_property name="ElementShortName">holdData_dataIn_re[15:0]</obj_property>
+      <obj_property name="ObjectShortName">holdData_dataIn_re[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataIn_re_offset" type="array">
+      <obj_property name="ElementShortName">dataIn_re_offset[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn_re_offset[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataIn_re" type="array">
+      <obj_property name="ElementShortName">dataIn_re[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn_re[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataIn_re_1" type="array">
+      <obj_property name="ElementShortName">dataIn_re_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn_re_1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/snkDone" type="logic">
+      <obj_property name="ElementShortName">snkDone</obj_property>
+      <obj_property name="ObjectShortName">snkDone</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/snkDonen" type="logic">
+      <obj_property name="ElementShortName">snkDonen</obj_property>
+      <obj_property name="ObjectShortName">snkDonen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/tb_enb" type="logic">
+      <obj_property name="ElementShortName">tb_enb</obj_property>
+      <obj_property name="ObjectShortName">tb_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ce_out" type="logic">
+      <obj_property name="ElementShortName">ce_out</obj_property>
+      <obj_property name="ObjectShortName">ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut" type="logic">
+      <obj_property name="ElementShortName">dataOut</obj_property>
+      <obj_property name="ObjectShortName">dataOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_startOut</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_endOut</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_validOut</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst[20:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_im" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_im[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_im[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_enb" type="logic">
+      <obj_property name="ElementShortName">dataOut_enb</obj_property>
+      <obj_property name="ObjectShortName">dataOut_enb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_lastAddr" type="logic">
+      <obj_property name="ElementShortName">dataOut_lastAddr</obj_property>
+      <obj_property name="ObjectShortName">dataOut_lastAddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/check1_done" type="logic">
+      <obj_property name="ElementShortName">check1_done</obj_property>
+      <obj_property name="ObjectShortName">check1_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">dataOut_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_expected" type="logic">
+      <obj_property name="ElementShortName">dataOut_expected</obj_property>
+      <obj_property name="ObjectShortName">dataOut_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_ref" type="logic">
+      <obj_property name="ElementShortName">dataOut_ref</obj_property>
+      <obj_property name="ObjectShortName">dataOut_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/dataOut_testFailure" type="logic">
+      <obj_property name="ElementShortName">dataOut_testFailure</obj_property>
+      <obj_property name="ObjectShortName">dataOut_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">ctrlOut_startOut_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut_expected" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_startOut_expected</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut_ref" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_startOut_ref</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_startOut_testFailure" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_startOut_testFailure</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_startOut_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">ctrlOut_endOut_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut_expected" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_endOut_expected</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut_ref" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_endOut_ref</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_endOut_testFailure" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_endOut_testFailure</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_endOut_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">ctrlOut_validOut_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut_expected" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_validOut_expected</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut_ref" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_validOut_ref</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/ctrlOut_validOut_testFailure" type="logic">
+      <obj_property name="ElementShortName">ctrlOut_validOut_testFailure</obj_property>
+      <obj_property name="ObjectShortName">ctrlOut_validOut_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced_expected" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced_expected</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced_ref" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced_ref</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_nSynced_testFailure" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_nSynced_testFailure</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_nSynced_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_signed" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_signed[20:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_signed[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_expected" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_expected[20:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_expected[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_ref" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_ref[20:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_ref[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_normCoarseFreqEst_testFailure" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_normCoarseFreqEst_testFailure</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_normCoarseFreqEst_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_signed" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_signed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_signed[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_expected" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_expected[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_expected[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_ref" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_ref[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_ref[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_re_testFailure" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_re_testFailure</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_re_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_im_signed" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_im_signed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_im_signed[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_im_expected" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_im_expected[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_im_expected[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_im_ref" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_im_ref[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_im_ref[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationPoints_im_testFailure" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationPoints_im_testFailure</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationPoints_im_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid_addr_delay_1" type="array">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid_addr_delay_1[18:0]</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid_addr_delay_1[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid_expected" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid_expected</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid_expected</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid_ref" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid_ref</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/rxDiagBus_QPSKConstellationValid_testFailure" type="logic">
+      <obj_property name="ElementShortName">rxDiagBus_QPSKConstellationValid_testFailure</obj_property>
+      <obj_property name="ObjectShortName">rxDiagBus_QPSKConstellationValid_testFailure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/QPSK_Rx_tb/testFailure" type="logic">
+      <obj_property name="ElementShortName">testFailure</obj_property>
+      <obj_property name="ObjectShortName">testFailure</obj_property>
+   </wvobject>
+</wave_config>

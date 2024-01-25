@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Jan 25 17:42:00 2024
+# Process ID: 6652
+# Current directory: C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.runs/synth_1
+# Command line: vivado.exe -log QPSK_Tx_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source QPSK_Tx_tb.tcl
+# Log file: C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.runs/synth_1/QPSK_Tx_tb.vds
+# Journal file: C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source QPSK_Tx_tb.tcl -notrace
+Command: synth_design -top QPSK_Tx_tb -part xc7a35ticsg324-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21584 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 506.121 ; gain = 208.316
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'QPSK_Tx_tb' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx_tb.vhd:39]
+INFO: [Synth 8-3491] module 'QPSK_Tx' declared at 'C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx.vhd:48' bound to instance 'u_QPSK_Tx' of component 'QPSK_Tx' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx_tb.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'QPSK_Tx' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx.vhd:66]
+INFO: [Synth 8-3491] module 'Bit_Packetizer' declared at 'C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Bit_Packetizer.vhd:23' bound to instance 'u_Bit_Packetizer' of component 'Bit_Packetizer' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'Bit_Packetizer' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Bit_Packetizer.vhd:38]
+INFO: [Synth 8-3491] module 'Data_Bits_FIFO' declared at 'C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd:23' bound to instance 'u_Data_Bits_FIFO' of component 'Data_Bits_FIFO' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Bit_Packetizer.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'Data_Bits_FIFO' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd:38]
+INFO: [Synth 8-3491] module 'Compare_To_Constant5' declared at 'C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant5.vhd:23' bound to instance 'u_Compare_To_Constant5' of component 'Compare_To_Constant5' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'Compare_To_Constant5' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant5.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Compare_To_Constant5' (1#1) [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Compare_To_Constant5.vhd:30]
+INFO: [Synth 8-3491] module 'RAM_Frame_Status_Indicator' declared at 'C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/RAM_Frame_Status_Indicator.vhd:23' bound to instance 'u_RAM_Frame_Status_Indicator' of component 'RAM_Frame_Status_Indicator' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'RAM_Frame_Status_Indicator' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/RAM_Frame_Status_Indicator.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'RAM_Frame_Status_Indicator' (2#1) [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/RAM_Frame_Status_Indicator.vhd:34]
+	Parameter AddrWidth bound to: 13 - type: integer 
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'SimpleDualPortRAM_singlebit' declared at 'C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/SimpleDualPortRAM_singlebit.vhd:23' bound to instance 'u_Simple_Dual_Port_RAM' of component 'SimpleDualPortRAM_singlebit' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'SimpleDualPortRAM_singlebit' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/SimpleDualPortRAM_singlebit.vhd:38]
+	Parameter AddrWidth bound to: 13 - type: integer 
+	Parameter DataWidth bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'SimpleDualPortRAM_singlebit' (3#1) [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/SimpleDualPortRAM_singlebit.vhd:38]
+INFO: [Synth 8-3491] module 'MATLAB_Function1' declared at 'C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/MATLAB_Function1.vhd:23' bound to instance 'u_MATLAB_Function1' of component 'MATLAB_Function1' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'MATLAB_Function1' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/MATLAB_Function1.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'MATLAB_Function1' (4#1) [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/MATLAB_Function1.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Data_Bits_FIFO' (5#1) [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Data_Bits_FIFO.vhd:38]
+ERROR: [Synth 8-549] port width mismatch for port 'sampleCount': port width = 12, actual width = 11 [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Bit_Packetizer.vhd:132]
+ERROR: [Synth 8-285] failed synthesizing module 'Bit_Packetizer' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/Bit_Packetizer.vhd:38]
+ERROR: [Synth 8-285] failed synthesizing module 'QPSK_Tx' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx.vhd:66]
+ERROR: [Synth 8-285] failed synthesizing module 'QPSK_Tx_tb' [C:/Users/lamy1/Documents/ECE460/QPSK_TxRx/QPSK_TxRx.srcs/sources_1/imports/commhdlQPSKTxRx/QPSK_Tx_tb.vhd:39]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 582.305 ; gain = 284.500
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 0 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 25 17:42:13 2024...
