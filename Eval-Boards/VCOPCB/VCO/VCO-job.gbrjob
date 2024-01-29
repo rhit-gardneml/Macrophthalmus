@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2024-01-29T13:35:44-05:00"
+    "CreationDate": "2024-01-29T13:38:43-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -37,38 +37,13 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "VCO-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "VCO-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "VCO-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "VCO-F_Silkscreen.gbr",
-      "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "VCO-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "VCO-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "VCO-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
