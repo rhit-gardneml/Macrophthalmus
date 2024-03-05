@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.8"
     },
-    "CreationDate": "2024-03-05T13:26:06-05:00"
+    "CreationDate": "2024-03-05T13:27:26-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "BPF-Eval-Board",
-      "GUID": "4250462d-4576-4616-9c2d-426f6172642e",
+      "Name": "NewLow",
+      "GUID": "4e65774c-6f77-42e6-9b69-6361645f7063",
       "Revision": "rev?"
     },
     "Size": {
@@ -24,30 +24,55 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.762
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "BPF-Eval-Board-F_Cu.gbr",
+      "Path": "NewLow-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BPF-Eval-Board-F_Paste.gbr",
+      "Path": "NewLow-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "NewLow-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "BPF-Eval-Board-F_Mask.gbr",
+      "Path": "NewLow-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "NewLow-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "NewLow-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "NewLow-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "BPF-Eval-Board-Edge_Cuts.gbr",
+      "Path": "NewLow-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "NewLow-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -63,29 +88,24 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
