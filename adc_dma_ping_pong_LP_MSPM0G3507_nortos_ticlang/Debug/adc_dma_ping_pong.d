@@ -33,6 +33,8 @@ adc_dma_ping_pong.o: ../adc_dma_ping_pong.c \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_dma.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/devices/msp/msp.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_common.h \
+ C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart_main.h \
+ C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart.h \
  syscfg/ti_msp_dl_config.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/driverlib.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_adc12.h \
@@ -58,8 +60,6 @@ adc_dma_ping_pong.o: ../adc_dma_ping_pong.c \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_timerg.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_trng.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart_extend.h \
- C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart.h \
- C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart_main.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_vref.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_wwdt.h \
  C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/m0p/dl_interrupt.h \
@@ -129,6 +129,10 @@ C:/ti/mspm0_sdk_1_20_01_06/source/ti/devices/msp/msp.h:
 
 C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_common.h:
 
+C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart_main.h:
+
+C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart.h:
+
 syscfg/ti_msp_dl_config.h:
 
 C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/driverlib.h:
@@ -178,10 +182,6 @@ C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_timerg.h:
 C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_trng.h:
 
 C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart_extend.h:
-
-C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart.h:
-
-C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_uart_main.h:
 
 C:/ti/mspm0_sdk_1_20_01_06/source/ti/driverlib/dl_vref.h:
 

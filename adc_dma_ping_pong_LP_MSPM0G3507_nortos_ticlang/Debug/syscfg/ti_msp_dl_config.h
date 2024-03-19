@@ -77,20 +77,16 @@ extern "C" {
 
 
 /* Defines for UART_0 */
-#define UART_0_INST                                                        UART0
-#define UART_0_INST_IRQHandler                                  UART0_IRQHandler
-#define UART_0_INST_INT_IRQN                                      UART0_INT_IRQn
-#define GPIO_UART_0_RX_PORT                                                GPIOA
+#define UART_0_INST                                                        UART1
+#define UART_0_INST_IRQHandler                                  UART1_IRQHandler
+#define UART_0_INST_INT_IRQN                                      UART1_INT_IRQn
 #define GPIO_UART_0_TX_PORT                                                GPIOA
-#define GPIO_UART_0_RX_PIN                                         DL_GPIO_PIN_1
-#define GPIO_UART_0_TX_PIN                                        DL_GPIO_PIN_10
-#define GPIO_UART_0_IOMUX_RX                                      (IOMUX_PINCM2)
-#define GPIO_UART_0_IOMUX_TX                                     (IOMUX_PINCM21)
-#define GPIO_UART_0_IOMUX_RX_FUNC                       IOMUX_PINCM2_PF_UART0_RX
-#define GPIO_UART_0_IOMUX_TX_FUNC                      IOMUX_PINCM21_PF_UART0_TX
-#define UART_0_BAUD_RATE                                                  (9600)
-#define UART_0_IBRD_32_MHZ_9600_BAUD                                       (208)
-#define UART_0_FBRD_32_MHZ_9600_BAUD                                        (21)
+#define GPIO_UART_0_TX_PIN                                         DL_GPIO_PIN_8
+#define GPIO_UART_0_IOMUX_TX                                     (IOMUX_PINCM19)
+#define GPIO_UART_0_IOMUX_TX_FUNC                      IOMUX_PINCM19_PF_UART1_TX
+#define UART_0_BAUD_RATE                                                (115200)
+#define UART_0_IBRD_32_MHZ_115200_BAUD                                      (17)
+#define UART_0_FBRD_32_MHZ_115200_BAUD                                      (23)
 
 
 
@@ -124,14 +120,18 @@ extern "C" {
 
 
 
-/* Defines for PIN_0: GPIOB.26 with pinCMx 57 on package pin 28 */
+/* Defines for PIN_0: GPIOB.27 with pinCMx 58 on package pin 29 */
 #define GPIO_LEDS_PIN_0_PORT                                             (GPIOB)
-#define GPIO_LEDS_PIN_0_PIN                                     (DL_GPIO_PIN_26)
-#define GPIO_LEDS_PIN_0_IOMUX                                    (IOMUX_PINCM57)
+#define GPIO_LEDS_PIN_0_PIN                                     (DL_GPIO_PIN_27)
+#define GPIO_LEDS_PIN_0_IOMUX                                    (IOMUX_PINCM58)
 /* Defines for PIN_3: GPIOA.0 with pinCMx 1 on package pin 33 */
 #define GPIO_LEDS_PIN_3_PORT                                             (GPIOA)
 #define GPIO_LEDS_PIN_3_PIN                                      (DL_GPIO_PIN_0)
 #define GPIO_LEDS_PIN_3_IOMUX                                     (IOMUX_PINCM1)
+/* Defines for PIN_1: GPIOB.22 with pinCMx 50 on package pin 21 */
+#define GPIO_LEDS_PIN_1_PORT                                             (GPIOB)
+#define GPIO_LEDS_PIN_1_PIN                                     (DL_GPIO_PIN_22)
+#define GPIO_LEDS_PIN_1_IOMUX                                    (IOMUX_PINCM50)
 
 /* clang-format on */
 
