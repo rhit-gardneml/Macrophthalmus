@@ -1,8 +1,0 @@
-################################################################################
-# Automatically-generated file. Do not edit!
-################################################################################
-
-USER_OBJS :=
-
-LIBS := -Wl,-l"C:/ti/mspm0_sdk_1_20_00_05/source/ti/drivers/lib/ticlang/m0p/drivers_mspm0g1x0x_g3x0x.a" -Wl,-l"C:/ti/mspm0_sdk_1_20_00_05/kernel/nortos/lib/ticlang/m0p/nortos_mspm0g1x0x_g3x0x.a" -Wl,-l"C:/ti/mspm0_sdk_1_20_00_05/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a" -Wl,-llibc.a
-

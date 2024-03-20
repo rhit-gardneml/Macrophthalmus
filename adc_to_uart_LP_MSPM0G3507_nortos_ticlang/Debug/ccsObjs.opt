@@ -1,6 +1,0 @@
-"./adc_to_uart.o"
-"./syscfg/ti_msp_dl_config.o"
-"./startup_mspm0g350x_ticlang.o"
--l"syscfg/device_linker.cmd"
--ldevice.cmd.genlibs
--llibc.a

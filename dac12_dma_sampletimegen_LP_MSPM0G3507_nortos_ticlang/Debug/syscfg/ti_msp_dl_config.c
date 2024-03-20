@@ -177,7 +177,7 @@ static const DL_DAC12_Config gDAC12Config = {
     .dmaTriggerEnable          = DL_DAC12_DMA_TRIGGER_ENABLED,
     .dmaTriggerThreshold       = DL_DAC12_FIFO_THRESHOLD_TWO_QTRS_EMPTY,
     .sampleTimeGeneratorEnable = DL_DAC12_SAMPLETIMER_ENABLE,
-    .sampleRate                = DL_DAC12_SAMPLES_PER_SECOND_1M,
+    .sampleRate                = DL_DAC12_SAMPLES_PER_SECOND_8K,
 };
 SYSCONFIG_WEAK void SYSCFG_DL_DAC12_init(void)
 {

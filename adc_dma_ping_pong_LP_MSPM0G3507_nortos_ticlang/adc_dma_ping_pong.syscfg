@@ -1,0 +1,91 @@
+/**
+ * These arguments were used when this file was generated. They will be automatically applied on subsequent loads
+ * via the GUI or CLI. Run CLI with '--help' for additional information on how to override these arguments.
+ * @cliArgs --device "MSPM0G350X" --package "LQFP-64(PM)" --part "Default" --product "mspm0_sdk@1.20.01.06"
+ * @versions {"tool":"1.18.0+3266"}
+ */
+
+/**
+ * Import the modules used in this configuration.
+ */
+const ADC12  = scripting.addModule("/ti/driverlib/ADC12", {}, false);
+const ADC121 = ADC12.addInstance();
+const Board  = scripting.addModule("/ti/driverlib/Board");
+const GPIO   = scripting.addModule("/ti/driverlib/GPIO", {}, false);
+const GPIO1  = GPIO.addInstance();
+const SYSCTL = scripting.addModule("/ti/driverlib/SYSCTL");
+const UART   = scripting.addModule("/ti/driverlib/UART", {}, false);
+const UART1  = UART.addInstance();
+const VREF   = scripting.addModule("/ti/driverlib/VREF");
+
+/**
+ * Write custom configuration values to the imported modules.
+ */
+ADC121.$name                            = "ADC12_0";
+ADC121.powerDownMode                    = "DL_ADC12_POWER_DOWN_MODE_MANUAL";
+ADC121.configureDMA                     = true;
+ADC121.enabledInterrupts                = ["DL_ADC12_INTERRUPT_DMA_DONE"];
+ADC121.adcMem0vref                      = "VREF";
+ADC121.sampleTime1                      = "0";
+ADC121.adcMem0chansel                   = "DL_ADC12_INPUT_CHAN_2";
+ADC121.enabledDMATriggers               = ["DL_ADC12_DMA_MEM11_RESULT_LOADED"];
+ADC121.adcMem0avgen                     = true;
+ADC121.sampCnt                          = 6;
+ADC121.enableFIFO                       = true;
+ADC121.repeatMode                       = true;
+ADC121.sampClkDiv                       = "DL_ADC12_CLOCK_DIVIDE_48";
+ADC121.hwNumerator                      = "DL_ADC12_HW_AVG_NUM_ACC_128";
+ADC121.hwDenominator                    = "DL_ADC12_HW_AVG_DEN_DIV_BY_128";
+ADC121.sampleTime0                      = "16 us";
+ADC121.peripheral.adcPin2.$assign       = "PA25";
+ADC121.DMA_CHANNEL.$name                = "DMA_CH0";
+ADC121.DMA_CHANNEL.enableEarlyInterrupt = true;
+ADC121.DMA_CHANNEL.enableInterrupt      = true;
+ADC121.DMA_CHANNEL.earlyIntThresh       = "HALF";
+ADC121.DMA_CHANNEL.transferMode         = "FULL_CH_REPEAT_BLOCK";
+ADC121.DMA_CHANNEL.srcIncrement         = "INCREMENT";
+ADC121.DMA_CHANNEL.destIncrement        = "INCREMENT";
+ADC121.DMA_CHANNEL.addressMode          = "f2b";
+ADC121.DMA_CHANNEL.peripheral.$assign   = "DMA_CH0";
+ADC121.adcPin2Config.$name              = "ti_driverlib_gpio_GPIOPinGeneric0";
+
+Board.peripheral.$assign          = "DEBUGSS";
+Board.peripheral.swclkPin.$assign = "PA20";
+Board.peripheral.swdioPin.$assign = "PA19";
+
+GPIO1.$name                               = "GPIO_LEDS";
+GPIO1.associatedPins.create(3);
+GPIO1.associatedPins[0].$name             = "PIN_0";
+GPIO1.associatedPins[0].launchPadShortcut = "LED2GreenEn";
+GPIO1.associatedPins[1].$name             = "PIN_3";
+GPIO1.associatedPins[1].launchPadShortcut = "LED1En";
+GPIO1.associatedPins[2].$name             = "PIN_1";
+GPIO1.associatedPins[2].launchPadShortcut = "LED2BlueEn";
+
+SYSCTL.peripheral.$assign = "SYSCTL";
+
+UART1.$name                    = "UART_0";
+UART1.rxFifoThreshold          = "DL_UART_RX_FIFO_LEVEL_ONE_ENTRY";
+UART1.txFifoThreshold          = "DL_UART_TX_FIFO_LEVEL_3_4_EMPTY";
+UART1.direction                = "TX";
+UART1.targetBaudRate           = 115200;
+UART1.peripheral.$assign       = "UART1";
+UART1.peripheral.txPin.$assign = "PA8";
+UART1.txPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric2";
+
+VREF.advClockConfigEnable          = true;
+VREF.checkVREFReady                = true;
+VREF.basicIntVolt                  = "DL_VREF_BUFCONFIG_OUTPUT_2_5V";
+VREF.peripheral.$assign            = "VREF";
+VREF.peripheral.vrefPosPin.$assign = "PA23";
+VREF.vrefPosPinConfig.$name        = "ti_driverlib_gpio_GPIOPinGeneric1";
+
+/**
+ * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future
+ * version of the tool will not impact the pinmux you originally saw.  These lines can be completely deleted in order to
+ * re-solve from scratch.
+ */
+ADC121.peripheral.$suggestSolution           = "ADC0";
+GPIO1.associatedPins[0].pin.$suggestSolution = "PB27";
+GPIO1.associatedPins[1].pin.$suggestSolution = "PA0";
+GPIO1.associatedPins[2].pin.$suggestSolution = "PB22";
